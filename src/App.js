@@ -3,8 +3,18 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <p>Dodo portfolio yo sup</p>
+    <div>
+      <nav></nav>
+      <header></header>
+
+      <section>
+        <article>
+          <h2></h2>
+          <p></p>
+        </article>
+      </section>
+      <aside></aside>
+      <footer></footer>
     </div>
   );
 }
