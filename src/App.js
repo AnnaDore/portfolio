@@ -8,6 +8,7 @@ import {
 import { isMobile, isDesktop } from "react-device-detect";
 
 import Header from "./components/header/Header";
+import Links from "./components/links/Links"
 import Intro from "./components/intro/Intro"
 import About from "./components/about/About"
 import Skills from "./components/skills/Skills"
@@ -21,6 +22,7 @@ function App() {
     <div>
       <Router>
         <Header />
+        <Links />
         <Intro />
         <About />
         <Skills />
