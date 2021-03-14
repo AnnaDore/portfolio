@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import { isMobile, isDesktop } from "react-device-detect";
 
-import Header from "./components/header/Header";
+import Navbar from "./components/Navbar/Navbar";
 import Links from "./components/links/Links"
 import Intro from "./components/intro/Intro"
 import About from "./components/about/About"
@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
       <Router>
-        <Header />
+        <Navbar />
         <Links />
         <Intro />
         <About />

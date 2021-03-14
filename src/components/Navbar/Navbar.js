@@ -1,10 +1,12 @@
-import React from "react";
-import "./header.scss"
+import React, { useEffect } from "react";
+import "./Navbar.scss"
 
-export default function Header() {
+export default function Navbar() {
+
+
   return (
     <header>
-      <div class="logo">Ann Do</div>
+      <div class="logo">dodo</div>
       <div class="container">
         <div></div>
         <div></div>
