@@ -1,33 +1,41 @@
 import React from "react";
+import {
+  Nav,
+  NavLink,
+  Bars,
+  NavMenu,
+  NavBtn,
+  NavBtnLink,
+} from "./Navbar";
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to="/">
+      <NavLink to="/">
           <h1>dodo</h1>
         </NavLink>
         <Bars />
         <NavMenu>
-          <Navlink to="/skills" activeStyle>
+        <NavLink to="/skills" activeStyle>
             Skills
-          </Navlink>
-          <Navlink to="/projects" activeStyle>
+          </NavLink>
+          <NavLink to="/projects" activeStyle>
             Projects
-          </Navlink>
-          <Navlink to="/experience" activeStyle>
+          </NavLink>
+          <NavLink to="/experience" activeStyle>
             Experience
-          </Navlink>
-          <Navlink to="/hobbies" activeStyle>
+          </NavLink>
+          <NavLink to="/hobbies" activeStyle>
             Hobbies
-          </Navlink>
-          <Navlink to="/contact" activeStyle>
+          </NavLink>
+          <NavLink to="/contact" activeStyle>
             Contact
-          </Navlink>
+          </NavLink>
         </NavMenu>
-        <NavBtn>
-            
-        </NavBtn>
+        {/* <NavBtn>
+            <NavBtnLink>Yo</NavBtnLink>
+        </NavBtn> */}
       </Nav>
     </>
   );
