@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import { isMobile, isDesktop } from "react-device-detect";
 
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar";
 import Links from "./components/links/Links"
 import Intro from "./components/intro/Intro"
 import About from "./components/about/About"
