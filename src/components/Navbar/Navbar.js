@@ -12,7 +12,7 @@ export const Nav = styled.nav`
 `
 
 export const NavLink = styled(Link)`
-    color: #fff;
+  color: #fff;
   display: flex;
   aligh-items: center;
   padding: 0 1rem;
@@ -52,19 +52,20 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  margin-tight: 24px;
+  margin-right: 24px;
 
    @media screen and (max-width: 768px) {
      display: none;
    }
 `
+
 export const  NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #256ce1;
   padding: 10px 22px;
   color: #fff;
   border: none;
-  outline: mpme;
+  outline: none;
   cursor: pointer;
   transition: all 0.2s else-in-out;
 

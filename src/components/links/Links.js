@@ -6,7 +6,7 @@ export default function Links() {
 
     return (
         <div>
-            yo
+            Links
         </div>
     )
 }

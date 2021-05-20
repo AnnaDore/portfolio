@@ -8,6 +8,7 @@ import {
   NavBtnLink,
 } from "./Navbar";
 
+
 const Navbar = () => {
   return (
     <>
@@ -33,9 +34,6 @@ const Navbar = () => {
             Contact
           </NavLink>
         </NavMenu>
-        {/* <NavBtn>
-            <NavBtnLink>Yo</NavBtnLink>
-        </NavBtn> */}
       </Nav>
     </>
   );
