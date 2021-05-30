@@ -14,7 +14,7 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: #fff;
   display: flex;
-  aligh-items: center;
+  align-items: center;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
@@ -42,7 +42,7 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
+  margin-right: 24px;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -79,34 +79,3 @@ export const  NavBtnLink = styled(Link)`
 
 
 
-
-
-// import React, { useEffect } from "react";
-// import "./Navbar.scss"
-
-// export default function Navbar() {
-
-//   return (
-//     <div></div>
-//   );
-// }
-
-{
-  /* <header>
-<div class="logo">dodo</div>
-<div class="container">
-  <div></div>
-  <div></div>
-  <div></div>
-</div>
-<div class="nav">
-  <ul>
-    <a>Skills</a>
-    <a>Experience</a>
-    <a>Projects</a>
-    <a>Hobbies</a>
-    <a>Contact</a>
-  </ul>
-</div>
-</header> */
-}

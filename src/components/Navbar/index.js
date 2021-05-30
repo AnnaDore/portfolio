@@ -9,6 +9,7 @@ import {
 } from "./Navbar";
 
 
+
 const Navbar = () => {
   return (
     <>
@@ -18,19 +19,19 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-        <NavLink to="/skills" activeStyle>
+        <NavLink to="/skills">
             Skills
           </NavLink>
-          <NavLink to="/projects" activeStyle>
+          <NavLink to="/projects">
             Projects
           </NavLink>
-          <NavLink to="/experience" activeStyle>
+          <NavLink to="/experience">
             Experience
           </NavLink>
-          <NavLink to="/hobbies" activeStyle>
+          <NavLink to="/hobbies">
             Hobbies
           </NavLink>
-          <NavLink to="/contact" activeStyle>
+          <NavLink to="/contact">
             Contact
           </NavLink>
         </NavMenu>
