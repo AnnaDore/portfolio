@@ -23,8 +23,9 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Links />
+       
         <Intro />
+        <Links />
         <About />
         <Skills />
         <Experience />
