@@ -1,14 +1,10 @@
+<div class="hamburger">
+  <i class="material-icons">menu</i>
+</div>
 <nav class="navbar">
     <ul>
-      <ng-container *ngIf="!isMobile()">
+      <ng-container>
         <li *ngFor="let link of links" class="desktop-link">
-          <a [routerLink]="link.url">{{ link.label }}</a>
-        </li>
-      </ng-container>
-      
-      <!-- TODO: hamburger -->
-      <ng-container *ngIf="isMobile()">
-        <li *ngFor="let link of links" class="mobile-link">
           <a [routerLink]="link.url">{{ link.label }}</a>
         </li>
       </ng-container>
