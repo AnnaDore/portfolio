@@ -18,8 +18,7 @@
   display: none;
 }
 
-//TODO: set up queries
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .hamburger {
     display: block;
   }
