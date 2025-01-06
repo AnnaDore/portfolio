@@ -7,9 +7,16 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+
+  isMenuOpen: boolean = false;
+  
   links = [
     { label: 'Home', url: '/' },
     { label: 'About me', url: '/about' },
     { label: 'Experience', url: '/experience' },
   ];
+
+  openMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }

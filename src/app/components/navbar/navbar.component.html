@@ -1,7 +1,18 @@
-<div class="hamburger">
+<div class="hamburger" (click)="openMenu()">
   <i class="material-icons">menu</i>
 </div>
 <nav class="navbar">
+  <ul>
+    <ng-container>
+      <li *ngFor="let link of links" class="desktop-link">
+        <a [routerLink]="link.url">{{ link.label }}</a>
+      </li>
+    </ng-container>
+  </ul>
+
+  @if(isMenuOpen) {
+
+  <div class="menu">
     <ul>
       <ng-container>
         <li *ngFor="let link of links" class="desktop-link">
@@ -9,4 +20,7 @@
         </li>
       </ng-container>
     </ul>
-  </nav>
+  </div>
+  }
+
+</nav>
